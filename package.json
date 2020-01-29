@@ -1,0 +1,30 @@
+{
+    "name": "streaming-media-assignment",
+    "version": "1.0.0",
+    "engines": {
+        "node": "13.7.0",
+        "npm": "6.13.6"
+    },
+    "description": "streaming media homework",
+    "main": "server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests Complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SRhodenizer/streaming-media-assignment.git"
+    },
+    "author": "Stephen Rhodenizer",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/SRhodenizer/streaming-media-assignment/issues"
+    },
+    "homepage": "https://github.com/SRhodenizer/streaming-media-assignment#readme",
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.20.0"
+    }
+}
